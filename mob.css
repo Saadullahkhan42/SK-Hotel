@@ -1,4 +1,13 @@
 @media (max-width: 600px) {
+  .sec_1 {
+    padding: 0%, 100;
+    background-image: url("Home page.jpg") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+  }
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -7,14 +16,26 @@
     background-color: #333;
     z-index: 10000;
     position: absolute;
-    width: 100%;
+    width: 100vw;
+    padding-right: 5%;
   }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 10px 10px;
+    text-decoration: none;
+    float: right;
+    /* padding-right: 2%; */
+  }
+
   .header {
     margin: 0%;
     position: absolute;
     top: 40%;
     bottom: 50%;
-    transform: translate(50%, -50%);
+    transform: translate(30%, -50%);
     font-weight: bold;
     font-size: 32px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -24,7 +45,7 @@
     position: absolute;
     top: 45%;
     bottom: 50%;
-    transform: translate(5%, -50%);
+    transform: translate(2%, -50%);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: wheat;
     font-size: 15px;
@@ -34,7 +55,7 @@
     position: absolute;
     top: 55%;
     bottom: 35%;
-    transform: translate(100%, -50%);
+    transform: translate(50%, -50%);
     padding: 10px;
     border-radius: 5px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -81,33 +102,33 @@
   .hh {
     position: absolute;
     background-repeat: no-repeat;
-    top: 195%;
+    top: 208%;
     text-align: center;
     margin-left: 0%;
-    padding: 4%;
-    width: 30%;
+    padding: 2%;
+    width: 35%;
     height: 60%;
     font-family: "Sansita Swashed", cursive;
     font-size: 20px;
   }
   .hl {
     position: absolute;
-    top: 195%;
+    top: 208%;
     text-align: center;
     margin-left: 30%;
-    padding: 4%;
-    width: 30%;
+    padding: 2%;
+    width: 35%;
     height: 60%;
     font-family: "Sansita Swashed", cursive;
     font-size: 20px;
   }
   .hf {
     position: absolute;
-    top: 195%;
+    top: 208%;
     text-align: center;
     margin-left: 60%;
-    padding: 4%;
-    width: 30%;
+    padding: 2%;
+    width: 35%;
     height: 60%;
     font-family: "Sansita Swashed", cursive;
     font-size: 20px;
@@ -117,14 +138,14 @@
     background-position: center;
     position: absolute;
     background-repeat: no-repeat;
-    top: 205%;
+    top: 220%;
     text-align: center;
     margin: 0%;
     padding: 2%;
-    width: 30%;
+    width: 35%;
     height: 90%;
     font-family: "Sansita Swashed", cursive;
-    font-size: 13px;
+    font-size: 10px;
   }
   .luxury {
     background-image: url("tajMahal.jpg");
@@ -132,28 +153,28 @@
     background-position: center;
     position: absolute;
     background-repeat: no-repeat;
-    top: 205%;
+    top: 220%;
     text-align: center;
     margin-left: 30%;
-    padding: 4%;
+    padding: 2%;
     width: 30%;
     height: 90%;
     font-family: "Sansita Swashed", cursive;
-    font-size: 13px;
+    font-size: 10px;
   }
   .crockery {
     background-image: url("Crockery.jpg");
     background-position: center;
     position: absolute;
     background-repeat: no-repeat;
-    top: 205%;
+    top: 220%;
     text-align: center;
     margin-left: 60%;
-    padding: 4%;
-    width: 30%;
-    height: 109%;
+    padding: 2%;
+    width: 35%;
+    height: 110%;
     font-family: "Sansita Swashed", cursive;
-    font-size: 13px;
+    font-size: 10px;
   }
   .sec_5 {
     background-image: url("bedroom.jpg");
@@ -166,15 +187,16 @@
   }
   .img_1 {
     height: 40%;
-    max-width: 200px;
+    width: 40%;
+    max-width: 700px;
     position: absolute;
     margin-left: -40%;
     margin-top: 100%;
     flex: 25%;
   }
   .img_2 {
-    width: 62%;
-    height: 60%;
+    width: 63%;
+    height: 45%;
     max-width: 500px;
     position: absolute;
     margin-left: -0%;
@@ -183,7 +205,7 @@
   }
   .img_3 {
     width: 62%;
-    height: 40%;
+    height: 30%;
     max-width: 648px;
     position: absolute;
     margin-left: 0%;
@@ -191,7 +213,7 @@
     flex: 25%;
   }
   .img_4 {
-    width: 50%;
+    width: 5048%;
     height: 59.7%;
     float: left;
     max-width: 200px;
@@ -211,7 +233,7 @@
     flex: 25%;
   }
   .img_6 {
-    width: 53.6%;
+    width: 53%;
     height: 60%;
     float: left;
     max-width: 540px;
@@ -221,7 +243,7 @@
     flex: 25%;
   }
   .img_7 {
-    width: 53.6%;
+    width: 53%;
     height: 30%;
     float: left;
     max-width: 648px;
@@ -241,7 +263,7 @@
     flex: 25%;
   }
   .img_9 {
-    width: 53.6%;
+    width: 53%;
     height: 60.4%;
     float: left;
     max-width: 648px;
@@ -256,5 +278,6 @@
     padding: 10px;
     text-align: center;
     margin-top: 343.5%;
+    width: 100vw;
   }
 }

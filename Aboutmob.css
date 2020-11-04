@@ -8,32 +8,35 @@
   /* Navbar */
   #sec_1 {
     padding: 0%, 100%;
-    height: 88vh;
+    height: 95vh;
     display: flex;
+    width: 60%;
   }
 
   ul {
-    position: absolute;
-    padding: 0px;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    width: 100%;
-    background-color: #333333;
+    background-color: #333;
     z-index: 10000;
+    position: absolute;
+    width: 100vw;
+    padding-right: 5%;
   }
 
   li a {
     display: block;
     color: white;
     text-align: right;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
     float: right;
   }
 
   .name {
     float: left;
-    padding-left: 30%;
+    padding-left: 10%;
     font-size: 20px;
   }
 
@@ -53,7 +56,7 @@
   .para {
     display: flex;
     flex-direction: column;
-    margin: 50px;
+    margin: 30px;
     height: 50vh;
     width: 50vw;
   }
@@ -62,7 +65,9 @@
     flex-direction: column;
     margin-top: 10%;
     padding: 10px;
-    width: 150%;
+    width: 100%;
+    margin-left: 45%;
+    font-size: 14px;
   }
   .h1 {
     font-size: 32px;
@@ -92,13 +97,14 @@
     max-width: 700px;
     position: absolute;
     margin-left: 0%;
-    margin-top: 35%;
+    margin-top: 72%;
     flex: 25%;
     border-radius: 100%;
   }
 
   #sec_3 {
-    width: 100%;
+    margin-top: 10%;
+    width: 100vw;
     background-image: url("Italy.jpg");
     height: 100vh;
     background-position: center;
@@ -122,16 +128,17 @@
     position: absolute;
     top: 5%;
     bottom: 100%;
-    transform: translate(40%, 10%);
+    transform: translate(20%, 10%);
     font-weight: bold;
-    font-size: 38px;
+    font-size: 28px;
+    width: 100%;
   }
 
   .cmnt {
     display: flex;
 
     background-color: bisque;
-    width: 80vw;
+    width: 80%;
     height: 25vh;
     margin: 0%;
     transform: translate(10%, 60%);
