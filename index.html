@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This ur first project | Hotel web | Project_01">
+    <meta name="keywords" content="Html5 , CSS , Hotel web , Project_01">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mob.css">
+    <link rel="stylesheet" href="indexTablet.css">
+</head>
+<body>
+    
+    <!-- front site -->
+    <section class="sec_1">
+        <div class="box">
+            <!-- <img src="Home_page.jpg" alt="" width="500"height="500"> -->
+            <!-- Header -->
+            <nav class="nav" >
+                <ul id="nav">
+                    <li class="name"> <a href="#name" class="nav-header"> SK</a></li>
+                    <li class="nav-item"> <a href="./contact.html" class="nav-link">Contact</a> </li> 
+                    <li class="nav-item"> <a href="./About.html" class="nav-link">About</a></li>
+                    <li class="nav-item"> <a href="./index.html" class="nav-link">Home</a></li>
+                </ul>
+            </nav><br>
+            <!-- heading -->
+            <h1 class="header" ><span class="cls">Enjoy</span> your Stay</h1><br>
+            <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, sequi.</p><br>
+            <a href="./About.html"><button class="btn">About our hotel</button></a>
+        </div>
+    </section>
+
+    <!--Middle part  -->
+    <section class="sec_2">
+        <div class="container">
+            <h1><span>The History</span> of our Hotel</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum dolore incidunt minus? Officiis pariatur praesentium, voluptas perspiciatis eaque repellendus mollitia inventore totam, vitae facere odit quae suscipit, molestiae sapiente libero.</p>
+            <br>
+            <a href="./About.html">
+                <button>Read me</button>
+            </a>
+        </div>
+        <div class="container_2"> 
+        </div>
+    </section>
+
+    <!-- container part -->
+    <section class="sec_3">
+        <div id="sec_3">
+            <h4 class="hh">Great Hotel</h4>
+            <p class="hotel">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, quas? Non explicabo repudiandae illum similique laudantium dolore architecto odio corporis.
+            </p>
+            <h4 class="hl">Great Luxury</h4>
+            <p class="luxury">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe quasi accusantium incidunt voluptas quibusdam possimus atque et eius corporis blanditiis.
+            </p>
+            <h4 class="hf">Great Food</h4>
+            <p class="crockery">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus assumenda soluta tempora excepturi consequatur laboriosam alias impedit fugit fuga modi!
+            </p>
+        </div>
+     </section>
+     
+     <!-- images -->
+    <section class="sec_5">
+        <div class="column">
+            <img src="walk.jpg" alt="" class="img_1" width="300" height="300">
+            <img src="joging.jpg" alt="" class="img_2" width="300" height="300"> 
+            <img src="li.jpg" alt="" class="img_3" width="300" height="300">
+            <img src="res.jpg" alt="" class="img_4" width="300" height="300">
+            <img src="room.jpg" alt="" class="img_5" width="300" height="300">
+            <img src="bedroom.jpg" alt="" class="img_6" width="300" height="300">
+            <img src="Hotel.jpg" alt=""  class="img_7" width="300" height="300">
+            <img src="Home page.jpg" alt="" class="img_8" width="300" height="300">
+            <img src="hotelRoom.jpg" alt="" class="img_9" width="300" height="300">
+        </div>
+    </section>
+
+    <!-- Footer --> 
+    <section class="sec_4">
+        <footer>
+            <footer>Hotel SK @ 2020,All Right Reserved </footer>
+        </footer>
+    </section>
+    
+    <!-- Javascript part for navbar -->
+    <script type="text/javascript">
+        var nav =document.getElementById('nav');
+        window.onscroll=function(){
+            if(window.pageYOffset>100){
+                nav.style.position="fixed";
+                nav.style.top=0;
+            }
+            else{
+                box.style.position="absolute";
+                box.style.top=100;
+            }
+        }
+    </script>
+</body>
+</html>

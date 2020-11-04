@@ -1,0 +1,125 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#sec_1 {
+  padding: 0%, 100%;
+  display: flex;
+}
+
+ul {
+  position: absolute;
+  padding: 0px;
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+  background-color: #333333;
+  z-index: 10000;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+}
+
+.name {
+  float: left;
+  padding-left: 10%;
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.nav-item {
+  float: right;
+}
+
+#sec_2 {
+  margin: 5%;
+}
+
+.text-primary {
+  color: blue;
+}
+form {
+  padding-top: 5%;
+}
+
+tr {
+  margin: 5%;
+  padding: 5%;
+}
+
+.name1 {
+  width: 700px;
+  padding: 10px;
+}
+.btn {
+  font-size: 22px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  transform: translate(5%, 30%);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: wheat;
+  background-color: black;
+  border: 1px solid #3498db;
+  cursor: pointer;
+  overflow: hidden;
+}
+.btn:hover {
+  color: #fff;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  height: 0;
+  background: #3498db;
+  z-index: -1;
+  transition: 0.8s;
+  top: 0;
+  border-radius: 0, 0, 50%, 50%;
+}
+
+.btn:hover::before {
+  height: 180%;
+}
+
+.sec_4 {
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 5.5%;
+  height: 40%;
+}
+.foter {
+  display: flex;
+}
+.img {
+  padding-left: 20%;
+  padding-bottom: 5%;
+}
+.loc {
+  color: white;
+}
+
+.name1m {
+  height: 70px;
+  width: 700px;
+}

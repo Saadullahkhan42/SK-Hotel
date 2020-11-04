@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="contactmob.css">
+    <link rel="stylesheet" href="contacttab.css">
+</head>
+<body>
+    <section class="sec_1">
+        <div class="box">
+            <!-- <img src="Home_page.jpg" alt="" width="500"height="500"> -->
+            <!-- Header -->
+            <nav class="nav" >
+                <ul id="nav">
+                    <li class="name"> <a href="#name" class="nav-header"> SK</a></li>
+                    <li class="nav-item"> <a href="./contact.html" class="nav-link">Contact</a> </li> 
+                    <li class="nav-item"> <a href="./About.html" class="nav-link">About</a></li>
+                    <li class="nav-item"> <a href="./index.html" class="nav-link">Home</a></li>
+                </ul>
+            </nav><br>
+        </div>
+    </section>
+
+    <section id="sec_2">
+        <div class="h">
+            <h1><span class="text-primary"> Contact </span>US</h1>
+            <p>Please fill out the form below to contact us</p>
+        </div>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="Name">Name</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="name" class="name1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">E-mail</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="email" class="name1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="message">Message</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="textarea" id="message" class="name1m">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="btn">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+<!-- Footer --> 
+<section class="sec_4">
+    <footer>
+        <div class="foter">
+            <div class="img">
+                <img src="location.png" alt="" width="50px" height="50px" class="loc">
+                <h4>Location</h4>
+                <p>31st main street </p>
+            </div>
+            <div class="img">
+                <img src="phone-call.png" alt="" width="50px" height="50px">
+                <h4>Phone Number</h4>
+                <p>033X-XXXXXXX</p>
+            </div>
+            <div class="img">
+                <img src="envelope.png" alt="" width="50px" height="50px">
+                <h4>E-mail</h4>
+                <p>SKhotel@gmail.com</p>
+            </div>
+        </div>
+        <footer>Hotel SK @ 2020,All Right Reserved </footer>
+    </footer>
+</section>
+    <!-- Javascript part for navbar -->
+    <script type="text/javascript">
+        var nav =document.getElementById('nav');
+        window.onscroll=function(){
+            if(window.pageYOffset>100){
+                nav.style.position="fixed";
+                nav.style.top=0;
+            }
+            else{
+                box.style.position="absolute";
+                box.style.top=100;
+            }
+        }
+    </script>
+</body>
+</html>

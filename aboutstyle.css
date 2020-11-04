@@ -1,0 +1,151 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+#sec_1 {
+  padding: 0%, 100%;
+  height: 78vh;
+  display: flex;
+}
+
+ul {
+  position: absolute;
+  padding: 0px;
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+  background-color: #333333;
+  z-index: 10000;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+}
+
+.name {
+  float: left;
+  padding-left: 30%;
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.nav-item {
+  float: right;
+}
+
+.para {
+  display: flex;
+  margin: 50px;
+  height: 50vh;
+  width: 50vw;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  padding: 79px;
+  width: 300%;
+}
+.h1 {
+  font-size: 32px;
+  text-align: center;
+}
+.text_primary {
+  color: royalblue;
+}
+
+.heading p {
+  text-align: center;
+}
+
+.img {
+  /* display: flex;
+  background-image: url("building.jpg");
+  margin-top: 10%;
+  float: right;
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  background-position: right;
+  padding: 20%; */
+  background-image: url("building.jpg");
+  width: 100%;
+  height: 70%;
+  float: right;
+  max-width: 700px;
+  position: absolute;
+  margin-left: 44%;
+  /* margin-top: 87%; */
+  flex: 25%;
+  border-radius: 100%;
+}
+
+#sec_3 {
+  width: 100%;
+  background-image: url("Italy.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(161, 153, 153));
+  opacity: 0.7;
+}
+
+.img_1 {
+  position: relative;
+  width: 100%;
+  height: 0vh;
+  margin: 0%;
+  padding: 0;
+  background: rgba(80, 77, 77, 0.4);
+}
+
+.img_1 h1 {
+  margin: 0%;
+  position: absolute;
+  top: 5%;
+  bottom: 100%;
+  transform: translate(200%, 10%);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.cmnt {
+  display: flex;
+
+  background-color: bisque;
+  width: 60vw;
+  height: 20vh;
+  margin: 0%;
+  transform: translate(40%, 60%);
+  font-size: 20px;
+  opacity: 1;
+}
+
+.cmnt p {
+  font-size: 18px;
+}
+
+.sec_4 {
+  background-color: #111;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 0%;
+}

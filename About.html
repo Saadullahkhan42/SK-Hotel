@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="aboutstyle.css">
+    <link rel="stylesheet" href="Aboutmob.css">
+    <link rel="stylesheet" href="aboutTablet.css">
+</head>
+<body>
+    <section id="sec_1">
+        <div class="box">
+            <!-- navbar -->
+            <nav class="nav" >
+                <ul id="nav">
+                    <li class="name"> <a href="#name" class="nav-header"> SK</a></li>
+                    <li class="nav-item"> <a href="./contact.html" class="nav-link">Contact</a> </li> 
+                    <li class="nav-item"> <a href="./About.html" class="nav-link">About</a></li>
+                    <li class="nav-item"> <a href="./index.html" class="nav-link">Home</a></li>
+                </ul>
+            </nav><br>
+        </div>
+        <div class="para">
+            <div class="heading">
+                <h1 class="h1"><span class="text_primary">About</span> SK HOTEL</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat aut reiciendis hic sit doloremque quos ut sapiente voluptatum nam, deleniti nihil velit dolorum harum id maxime esse provident placeat possimus.</p>
+            </div>
+            <div class="img"></div>
+        </div>
+    </section>
+    <section id="sec_3">
+        <div class="img_1">
+            <h1>What our Guest</h1>
+            <div class="cmnt">
+                <img src="cute.jpg" alt="" class="cute" width="100px" height="125px">
+                <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est voluptate aliquid ipsam dolores minus voluptatibus corporis, perferendis expedita vitae molestias harum. Non voluptatum qui sint optio sunt nulla odit impedit!</p>
+            </div>
+            <div class="cmnt">
+                <img src="outstanding.jpg" alt="" class="cute" width="100px" height="125px">
+                <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error molestias quae aperiam maiores neque odit, voluptatem impedit maxime dignissimos in commodi. Quasi, vel quos? Aliquid repudiandae consequatur a consectetur voluptatibus?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer --> 
+    <section class="sec_4">
+        <footer>
+            <footer>Hotel SK @ 2020,All Right Reserved </footer>
+        </footer>
+    </section>
+
+    <!-- Javascript part for navbar -->
+    <script type="text/javascript">
+        var nav =document.getElementById('nav');
+        window.onscroll=function(){
+            if(window.pageYOffset>100){
+                nav.style.position="fixed";
+                nav.style.top=0;
+            }
+            else{
+                box.style.position="absolute";
+                box.style.top=100;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,261 @@
+@media (min-width: 601px) and (max-width: 768px) {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    z-index: 10000;
+    position: absolute;
+    width: 100%;
+  }
+  .header {
+    margin: 0%;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(105%, -50%);
+    font-weight: bold;
+    font-size: 32px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .para {
+    margin: 0%;
+    position: absolute;
+    top: 60%;
+    bottom: 50%;
+    transform: translate(33%, -50%);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: wheat;
+    font-size: 15px;
+  }
+  .btn {
+    margin: 4%;
+    position: absolute;
+    top: 75%;
+    bottom: 10%;
+    transform: translate(171%, -190%);
+    padding: 5px;
+    border-radius: 5px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: wheat;
+    background-color: black;
+    border: 1px solid #3498db;
+    font-size: 20px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .container {
+    text-align: center;
+    padding: 5%;
+    background-color: darkgrey;
+    margin-left: 10%;
+  }
+  .container h1 {
+    text-align: center;
+    padding: 2%;
+    font-size: 67.9px;
+    font-weight: bold;
+    font-family: "Merriweather", serif;
+  }
+  .container p {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Sansita Swashed", cursive;
+  }
+
+  .container button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    transform: translate(-5%, -30%);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: wheat;
+    background-color: black;
+    border: 1px solid #3498db;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  .hh {
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 195%;
+    text-align: center;
+    margin-left: 0%;
+    padding: 4%;
+    width: 30%;
+    height: 60%;
+    font-family: "Sansita Swashed", cursive;
+    font-size: 30px;
+  }
+  .hl {
+    position: absolute;
+    top: 195%;
+    text-align: center;
+    margin-left: 30%;
+    padding: 4%;
+    width: 30%;
+    height: 60%;
+    font-family: "Sansita Swashed", cursive;
+    font-size: 30px;
+  }
+  .hf {
+    position: absolute;
+    top: 195%;
+    text-align: center;
+    margin-left: 60%;
+    padding: 4%;
+    width: 30%;
+    height: 60%;
+    font-family: "Sansita Swashed", cursive;
+    font-size: 30px;
+  }
+  .hotel {
+    background-image: url("hotelLogo.png");
+    background-position: center;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 215%;
+    text-align: center;
+    margin: 0%;
+    padding: 2%;
+    width: 35%;
+    height: 90%;
+    font-family: "Sansita Swashed", cursive;
+    font-size: 18px;
+  }
+  .luxury {
+    background-image: url("tajMahal.jpg");
+    opacity: 0.6;
+    background-position: center;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 215%;
+    text-align: center;
+    margin-left: 30%;
+    padding: 4%;
+    width: 35%;
+    height: 95%;
+    font-family: "Sansita Swashed", cursive;
+    font-size: 18px;
+  }
+  .crockery {
+    background-image: url("Crockery.jpg");
+    background-position: center;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 215%;
+    text-align: center;
+    margin-left: 60%;
+    padding: 4%;
+    width: 35%;
+    height: 118%;
+    font-family: "Sansita Swashed", cursive;
+    font-size: 18px;
+  }
+  .sec_5 {
+    background-image: url("bedroom.jpg");
+    background-repeat: no-repeat;
+    margin-top: 10%;
+    margin-left: 34%;
+    padding: 4%;
+    width: 22%;
+    height: 60vh;
+  }
+  .img_1 {
+    height: 40%;
+    width: 40%;
+    max-width: 600px;
+    position: absolute;
+    margin-left: -40%;
+    margin-top: 72%;
+    flex: 25%;
+  }
+  .img_2 {
+    width: 62%;
+    height: 60%;
+    max-width: 500px;
+    position: absolute;
+    margin-left: -0%;
+    margin-top: 72%;
+    flex: 25%;
+  }
+  .img_3 {
+    width: 62%;
+    height: 40%;
+    max-width: 648px;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 120%;
+    flex: 25%;
+  }
+  .img_4 {
+    width: 40%;
+    height: 59.7%;
+    float: left;
+    max-width: 500px;
+    position: absolute;
+    margin-left: -40%;
+    margin-top: 104%;
+    flex: 25%;
+  }
+  .img_5 {
+    width: 40%;
+    height: 90%;
+    float: left;
+    max-width: 500px;
+    position: absolute;
+    margin-left: -40%;
+    margin-top: 152%;
+    flex: 25%;
+  }
+  .img_6 {
+    width: 62%;
+    height: 60%;
+    float: left;
+    max-width: 540px;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 152%;
+    flex: 25%;
+  }
+  .img_7 {
+    width: 62%;
+    height: 30%;
+    float: left;
+    max-width: 648px;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 200%;
+    flex: 25%;
+  }
+  .img_8 {
+    width: 50%;
+    height: 60.4%;
+    float: left;
+    max-width: 500px;
+    position: absolute;
+    margin-left: -40%;
+    margin-top: 224%;
+    flex: 25%;
+  }
+  .img_9 {
+    width: 53.6%;
+    height: 60.4%;
+    float: left;
+    max-width: 648px;
+    position: absolute;
+    margin-left: 8.5%;
+    margin-top: 224%;
+    flex: 25%;
+  }
+  .sec_4 {
+    background-color: #111;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 227%;
+  }
+}
